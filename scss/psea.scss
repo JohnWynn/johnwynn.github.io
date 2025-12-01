@@ -1,0 +1,70 @@
+// ----------------------------------------
+// 1. Brand Colour Variables
+// ----------------------------------------
+$brand-navy:       #001F3F;
+$brand-orange:     #FF4500;
+$brand-amber:      #FF8C00;
+$brand-yellow:     #FFD700;
+$brand-green:      #3D9970;
+$brand-lightblue:  #7FDBFF;
+$brand-blue:       #0074D9;
+
+// ----------------------------------------
+// 2. Bootstrap Theme Overrides
+// ----------------------------------------
+
+// Core theme colours
+$primary:   $brand-navy;
+$secondary: $brand-blue;
+$success:   $brand-green;
+$warning:   $brand-orange;
+$danger:    $brand-yellow;
+$info:      $brand-lightblue;
+
+// Optional: body background / text
+$body-bg: #ffffff;
+$body-color: $brand-navy;
+
+// Optional: fonts
+
+// ----------------------------------------
+// 3. Import Bootstrap
+// ----------------------------------------
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// ----------------------------------------
+// 4. Site-specific styles (your own)
+// ----------------------------------------
+
+.hero-section {
+  background: linear-gradient(135deg, $brand-blue, $brand-navy);
+  color: white;
+  padding: 6rem 0;
+}
+
+.section-title {
+  color: $primary;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.accent-bar {
+  width: 80px;
+  height: 6px;
+  background: $brand-orange;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+//===== Navbar =====
+.nav-link {
+  color: white;
+
+  &:hover {
+    color: $brand-lightblue;
+  }
+}
+
+.navbar .nav-link.active {
+  color: $brand-yellow;
+}

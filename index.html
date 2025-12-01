@@ -3,15 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>PSEA Demo JW</title>
+        <title>PSEA Demo</title>
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="img/psea_180px.png" />
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <!-- Style -->
-        <link rel="stylesheet" href="css/psea.css">
+        <link rel="stylesheet" href="../assets/scss/psea.css">
+        <link rel="stylesheet" href="../assets/js/aos/aos.css">
     </head>
     <body>
+    <div class="bg-light">
 
         <!-- SVG Graphics -->
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -28,128 +30,399 @@
 
         <header>
             <!-- Fixed navbar -->
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow fixed-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href=https://www.psea.uk><img src = "img/logo_2x2_trans.png" alt="PSGA" style="width:55px;height:55px"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>  
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        </ul>
-                        <ul class="navbar-nav nav-underline">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Approach</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="https://www.psea.uk/ba.html">Business Transformation</a></li>
-                                    <li><a class="dropdown-item" href="https://www.psea.uk/ea.html">Enterprise Architecture</a></li>
-                                    <li><a class="dropdown-item" href="#">Technology Optimisation</a></li>
-                                    <li><a class="dropdown-item" href="#">Programme & Portfolio Managemment</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Community</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Knowledge Hub</a></li>
-                                    <li><a class="dropdown-item" href="#">Working Groups</a></li>
-                                    <li><a class="dropdown-item" href="#">Community Events</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Case Studies</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav> 
-        </header>
-        <!-- Hero -->
-        <div class="my-5 px-5 pt-5 text-center border-bottom">
-            <div class="col-lg-8 my-4 py-3 mx-auto">
-                <h1 class="display-3 text-body-emphasis">Welcome to <b>PSEA</b>, leaders in Public Sector Enterprise Architecture</h1>
-                <hr>
-                <p class="lead mb-4">The team at PSEA are here to help you turn your ideas into reality. The PSEA team has a depth of Enterpirse Architecture knowldge, built up over years working within the Public Sector and consulting with clients across Government.</p>
-                <p class="lead mb-4">We love what we do and at PSEA we pride ourselves on the professional services and thought leadership we provide to our partners. Alongside our traditional client engagements, our team host regular community events and maintain the PSEA Knowledge Base to share architectural expertise with the community to help drive innovation and to promote adoption of best practise across the Public Sector.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <a href="https://www.psea.uk/ba.html"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Learn More, BA</button></a>
-                    <a href="https://www.psea.uk/ea.html"><button type="button" class="btn btn-primary btn-lg px-4">Learn More, EA</button></a>
-                </div>
-                <div class="overflow-hidden" style="max-height: 30vh;">
-                    <div class="container px-5">
-                        <img src="img/hero.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="PSEA Website Screen" width="700" height="500" loading="lazy">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="my-5 px-5 pt-5 border-bottom">
-            <div class="col-lg-8 my-4 py-3 mx-auto">
-                <h2 class="display-4 text-body-emphasis">How can <b>PSEA</b> help?</h2>
-                <p>At PSEA we constantly tailor our apporch to best meet the needs of our clients as we know no two businesses are the same. Our team of consultants are familar with the needs and unique demands of the Public Sector and we have a wealth of experice and best practise to draw upon to help you acheive your specific goals. A few of the area in which the <em>PSEA Team</em> have assisted other client, include:</p>
-                <ul>
-                    <li><b>Unlocking the Power of Technology and Data</b> - Empowering government departments and councils to harness the full potential of technology and data through our expert team of experienced enterprise architects.</li>
-                    <li><b>Efficiency at Its Best</b> - Streamline your operations, optimise resource allocation, and maximise productivity with our tailored enterprise architecture solutions.</li>
-                    <li><b>Navigate the Complexities with Ease</b> - Our skilled enterprise architects specialise in working within the public sector, providing you with unique insights and strategies to overcome challenges specific to your industry.</li>
-                    <li><b>Informed Decision-Making</b> - Make well-informed choices based on comprehensive data analysis and strategic planning facilitated by our team of experts.</li>
-                    <li><b>Budget Control and Optimisation</b> - Gain complete control over your budgets, reduce wasteful spending, and allocate resources more effectively with our enterprise architecture solutions.</li>
-                    <li><b>Future-Proof Your Organisation</b> - Stay ahead of technological advancements and industry trends with our forward-thinking enterprise architects who will guide you in building a resilient and adaptable IT infrastructure.</li>
-                    <li><b>Transforming Public Services</b> - Enhance the citizen experience and deliver exceptional services by leveraging the latest technology and data insights through our enterprise architecture expertise.</li>
-                    <li><b>Maximise Collaboration and Integration</b> - Foster seamless communication and integration across departments and councils, ensuring efficient information sharing and decision-making processes.</li>
-                    <li><b>Mitigate Risks, Ensure Compliance</b> - Our team of enterprise architects understands the unique compliance requirements of the public sector, providing you with robust risk management strategies and regulatory adherence.</li>
-                    <li><b>Customied Solutions for Your Needs</b> - Every government department and council is unique. We offer tailored enterprise architecture solutions that align with your specific goals, challenges, and budgetary constraints.</li>
-                </ul>
-            
-                <div class="alert alert-info text-center" role="alert">
-                    <p><strong>What to learn more?</strong></p> 
-                    <p><a href="#gap">Get in touch today</a> to to arrange a coffee and to discuss how PSEA can help you.</p>  
-                </div>
-
-            </div>
-
-            
-        </div>
-
-        <!-- Hero Dark -->
-        <div class="bg-dark text-secondary px-4 py-5 text-center">
-            <div class="py-5">
-                <h1 class="display-5 fw-bold text-white">Get in touch...</h1>
-                <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Ready to start transforming your department or council's technological landscape? Take the first step towards informed decision-making, enhanced efficiency and optimised project deivery. Contact us today to discover how the PSEA Team can drive meaningful transformation, tailored to you.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-outline-light btn-lg px-4 me-sm-3 fw-bold">Learn More</button>
-                    <button type="button" class="btn btn-outline-light btn-lg px-4">Contact Us</button>
-                </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="bg-dark">
             <div class="container">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-0">
-                    <div class="col-md-4 d-flex align-items-center">
-                        
-                        <span class="mb-3 mb-md-0 text-secondary">Copyright &copy; Public Sector Enterprise Architecture</span>
+                <nav id="navbar-psea-home" class="navbar navbar-expand-md navbar-dark bg-primary fixed-top py-0">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href=https://www.psea.uk><img src = "img/psea_white.png" alt="PSGA" style="height:40px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>  
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <ul class="navbar-nav me-auto mb-lg-0">
+                            </ul>
+                            <ul class="navbar-nav nav-underline">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyApproach">Approach</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyService">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyCaseStudy">Case Studies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyContact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                
-                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                        <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24" fill="currentColor"><use xlink:href="#twitter"/></svg></a></li>
-                        <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24" fill="currentColor"><use xlink:href="#instagram"/></svg></a></li>
-                        <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24" fill="currentColor"><use xlink:href="#facebook"/></svg></a></li>
-                    </ul>
-                </footer>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Scrollspy -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-psea-home" data-bs-offset="0" tabindex="0">
+
+            <!-- Hero -->
+            <div class="bg-primary">
+                <div class="container text-white mt-5 py-4">
+                    <div class="row py-5">
+                        <div class="col-md-7 d-flex align-items-center">
+                            <h2 class="display-3">Welcome to <b class ="fw-bold">PSEA</b> <br><p class="text-secondary">Leaders in Public Sector Enterprise Architecture</p></h2>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="img/PSEA_blast2.png" class="img-fluid" alt="PSEA Team" data-aos="zoom-in" data-aos-duration="3000">
+                        </div>
+                    </div>
+                </div>
+            
+
+                <!-- Welcome - Our Mission -->
+               <div class="container text-center">
+                    <div class="card my-5 p-5 col-md-8 mx-auto shadow border-danger" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="card-body lead">
+                                <p class="display-6">PSEA can help you realise your vision by driving innovation, informing strategy, and governing the evolution of your architecture.</p>
+                                <p>We specialise in helping public sector organisations transform with confidence - linking strategy to roadmaps, turning ideas into action, and governing complex change.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-grid my-5 pb-5 gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="#scrollspyApproach" class="btn btn-outline-light btn-lg px-4 mx-3 rounded-pill">Learn more</a>
+                        <a href="#scrollspyContact" class="btn btn-secondary btn-lg px-4 mx-3 rounded-pill">Contact us</a>
+                    </div>
+                </div>
+                <img src="img/curve-bottom.png" class="img-fluid" alt="Curved border">
+            </div>
+            
+            <!-- About -->
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-8 lead">
+                        <p>PSEA specialise in helping public sector organisations move from complex ambition to confident, controlled delivery. We bring together innovation, strategy, and governance to help you deliver better outcomes for the people you serve.</p>
+                        <p>At PSEA we will help turn your ideas into reality. Our deep enterprise architecture expertise has been built through years of hands-on experience in UK government and consultancy roles across the public sector.</p>
+                        <p>We love what we do. At PSEA, we pride ourselves not only on the professional services and thought leadership we bring to every engagement, but also on the community we help foster. Alongside client delivery, we regularly host events and publish insights to help drive innovation and share best practice across government.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/team3.png" class="img-fluid" alt="PSEA Team" data-aos="zoom-in" data-aos-duration="1000">
+                    </div>
+                </div>
+                <div class="card my-5 px-2 col-md-4 mx-auto shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000">    
+                    <div class="row">
+                        <div class="card-body lead text-center">
+                            <p>Let’s start designing the future of public sector enterprise architecture together.</p>  
+                            <a href="#scrollspyContact" class="w-100 btn btn-lg btn-danger">Get in touch</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>                      
+
+            <!-- Approach -->
+            <div class="container py-5" id="scrollspyApproach" >
+                <div class="row justify-content-center">
+                    <h2 class="display-5 text-center">The <b>PSEA</b> Approach</h2>
+                    <hr class="border border-secondary border-2 opacity-50 w-25"></hr>
+                </div>
+                <div class="row lead">
+                    <div class="col-md-12">
+                        <p>At PSEA, we help public sector organisations move from ambition to action through a proven and adaptable enterprise architecture engagement model. Using trusted frameworks such as TOGAF, DMBOK, MSP and Lean Six Sigma, we support you in defining a clear future vision - one that aligns strategy, anticipates disruption, and identifies the capabilities needed for long-term success.</p>
+                        <p>Our engagements often begins by working with clients to shape a compelling future-state architecture grounded in their strategic goals. This work is underpinned by an assessment of current environment to surface opportunities, constraints, and risks. With this insight, we work with clients to develop a practical, phased roadmap that closes the gap between where they are today and where they need to be.</p>
+                        <p>We pride ourselves on being flexible and responsive,  adapting our methods, tools, and level of support to suit each client’s needs. Whether you require a one-off focus activity, a repeat set of engagements, or ongoing Architecture-as-a-Service (AaaS), we tailor our involvement to match your pace, maturity, and priorities.</p>
+                        <p>By taking a holistic view of your organisation - spanning business, data, and technology - we ensure your transformation is sustainable, scalable, and fully aligned with your mission.</p>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 my-4">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="card-header py-3 border-warning">
+                                <h4 class="my-0 fw-normal">Innovation</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="my-3">
+                                    <li>Technology Horizon Scanning</li>
+                                    <li>AI, Data, Automation Oportunities</li>
+                                    <li>Innovation Labs &amp; Workshops</li>
+                                    <li>Emerging Technology Assessment</li>
+                                    <li>Early Business Case Development</li>
+                                </ul>
+                                <a href="#scrollspyServiceInno" class="w-100 btn btn-lg btn-warning">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="card-header py-3 border-success">
+                                <h4 class="my-0 fw-normal">Strategy</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="my-3">
+                                    <li>Strategy Development &amp; Engagement</li>
+                                    <li>Capability-Led Transformation</li>
+                                    <li>Portfolio Planning &amp; Roadmaps</li>
+                                    <li>Enterprise Modelling &amp; Change Management</li>
+                                    <li>Process Design &amp; Optimisation</li>            
+                                </ul>
+                                <a href="#scrollspyServiceStrat" class="w-100 btn btn-lg btn-success">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="card-header py-3 border-info">
+                                <h4 class="my-0 fw-normal">Governance</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="my-3">
+                                    <li>Operating Models & Team Formation</li>
+                                    <li>Design Assurance & Review</li>
+                                    <li>Architecture Boards & Approvals</li>
+                                    <li>Programme Health Checks &amp; Recovery</li> 
+                                    <li>Architecture as a Service (AaaS)</li>
+                                </ul>
+                                <a href="#scrollspyServiceGov" class="w-100 btn btn-lg btn-info">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row lead">
+                    <p>PSEA offers a clear alternative to legacy, monolithic consultancies. We take a bespoke, pragmatic approach, working as trusted partners embedded in your transformation journey and focused on the unique needs of the public sector.</p>
+                    <p>We collaborate closely with your Leadership Team, Executive Sponsor or SRO - joining the core transformation team to understand priorities, clarify drivers for change, and ensure decisions are grounded in real organisational needs.</p>
+                    <p>Our flexible, virtual EA model adapts to you. Whether it’s a one-off focus, repeat engagements, or ongoing Architecture-as-a-Service (AaaS), we complement your in-house teams and scale our involvement to match your pace and objectives.</p>
+                </div>
+            </div>
+
+            <!-- How we can Help & Services --> 
+            <div class="container py-5 lead" id="scrollspyService">
+                <div class="row justify-content-center">
+                    <h2 class="display-5 text-center">Services <b>PSEA</b> Offer</h2>
+                    <hr class="border border-secondary border-2 opacity-50 w-25"></hr>
+                </div>
+                <div id="scrollspyServiceInno" class="card my-5 shadow text-bg-primary border-warning" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="row g-0">
+                        <div class="col-md-4 p-3 align-self-center">
+                            <img src="img/idea.svg" class="img-fluid rounded-start" alt="Innovation Light Bulb">
+                        </div>
+                        <div class="col-md-8 p-3">
+                            <div class="card-body">
+                                <h2 class="card-title">Driving <b>Innovation</b> to Deliver Real Value</h2>
+                                <hr class="border border-warning opacity-100">
+                                <p>We help organisations look ahead with confidence - scanning the horizon, exploring emerging technologies, and shaping digital innovation into practical, actionable roadmaps.</p>
+                                <p>By bridging strategy and execution, we design intuitive enterprise models that align your mission, priorities, and operational goals. PSEA will work with you to define future-state architectures, business capabilities, and technology roadmaps that provide clarity, focus, and measurable direction.</p>
+                                
+                                <ul>
+                                    <li>Horizon scanning & opportunity identification</li>
+                                    <li>Design labs & innovation workshops</li>
+                                    <li>Emerging technology & opportunity assessment</li>
+                                    <li>Roadmap development & prioritisation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="scrollspyServiceStrat" class="card my-5 shadow text-bg-primary border-success" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="row g-0">
+                        <div class="col-md-8 p-3">
+                            <div class="card-body">
+                                <h2 class="card-title">Turning <b>Strategy</b> Into Action</h2>
+                                <hr class="border border-success opacity-100">
+                                <p> We partner with you to shape clear, actionable strategies that align with your vision and guide delivery at pace.</p>
+                                <p>Transformation is complex, but with the right approach, it becomes a powerful opportunity. We enable structured and agile enterprise transformation, balancing risk, innovation, and stakeholder engagement to maximise impact, efficiency, and measurable outcomes.</p>
+                                <ul>
+                                    <li>Strategy development & execution</li>
+                                    <li>Enterprise modelling & transformation</li>
+                                    <li>Service design & process optimisation</li>
+                                    <li>Portfolio planning & program delivery</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-3 align-self-center">
+                            <img src="img/strategy.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div id="scrollspyServiceGov" class="card my-5 shadow text-bg-primary border-info" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="row g-0">
+                        <div class="col-md-4 p-3 align-self-center">
+                            <img src="img/govern.svg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 p-3">
+                            <div class="card-body">
+                                <h2 class="card-title">Appropriate <b>Governance</b> for Change</h2>
+                                <hr class="border border-info opacity-100">
+                                <p>We help you establish the right architecture governance to guide programmes, de-risk decisions, and keep transformation on track—delivering sustainable change with confidence.</p>
+                                <p>Good architecture underpins long-term resilience. We provide governance frameworks, design assurance, compliance support, and flexible architecture services that help organisations maintain adaptability, security, and operational excellence.</p>
+                                <ul>
+                                    <li>Architecture Boards & governance frameworks</li> 
+                                    <li>Design reviews & architectural approvals</li>
+                                    <li>Programme health checks & correct planning</li>
+                                    <li>Compliance, audit, and regulatory alignment</li>
+                                    <li>Architecture-as-a-Service (AaaS)
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why choose PSEA -->
+            <div class="container py-5" id="scrollspyApproach" >
+                <div class="row justify-content-center">
+                    <h2 class="display-5 text-center">Why Choose <b>PSEA</b></h2>
+                    <hr class="border border-secondary border-2 opacity-50 w-25"></hr>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 p-3">
+                        <div class="card border-primary shadow" data-aos="zoom-in-up">
+                            <div class="card-body">
+                                <h5 class="card-title">Public Sector Expertise</h5>
+                                <hr class="border border-primary opacity-100">
+                                <p>PSEA have deep experience across government departments and councils.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="card border-primary shadow" data-aos="zoom-in-up">
+                            <div class="card-body">
+                                <h5 class="card-title">Bespoke, Pragmatic Approach</h5>
+                                <hr class="border border-secondary opacity-100">
+                                <p>PSEA offer flexible engagement options to fit your organisation’s needs and pace.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="card border-primary shadow" data-aos="zoom-in-up">
+                            <div class="card-body">
+                                <h5 class="card-title">From Strategy to Delivery</h5>
+                                <hr class="border border-info opacity-100">
+                                <p>PSEA will turn your ambition into actionable roadmaps and measurable outcomes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 p-3">
+                        <div class="card border-primary shadow" data-aos="zoom-in-up">
+                            <div class="card-body">
+                                <h5 class="card-title">Trusted Partner</h5>
+                                <hr class="border border-primary opacity-100">
+                                <p>PSEA can work alongside your teams, adding capability without dependency.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="card border-primary shadow" data-aos="zoom-in-up">
+                            <div class="card-body">
+                                <h5 class="card-title">Sustainable Transformation</h5>
+                                <hr class="border border-secondary opacity-100">
+                                <p>PSEA have a holistic focus on business, data, and technology for long-term impact.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="card border-primary shadow" data-aos="zoom-in-up">
+                            <div class="card-body">
+                                <h5 class="card-title">Innovation-Focused</h5>
+                                <hr class="border border-info opacity-100">
+                                <p>PSEA harness emerging technologies and new approaches to drive real value.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- Case Studies -->
+            <div class="container py-5" id="scrollspyCaseStudy" >
+                <div class="row justify-content-center">
+                    <h2 class="display-5 text-center"><b>PSEA</b> Case Studies</h2>
+                    <hr class="border border-secondary border-2 opacity-50 w-25"></hr>
+                </div>
+                <p>These recent case studies illustrate how we help public sector organisations turn strategy into real results. These stories provide a few examples of not just what we do, but the value we create - helping clients navigate complexity, improve capability, and deliver transformation that lasts.</p>
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <div class="card shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <img class="card-img-top" src="../assets/img/cs_team_300px.png" alt="Team sat around a desk">
+                            <div class="card-body">
+                                <h5 class="card-title">EA Team Formation</h5>
+                                <hr class="border border-warning opacity-100">
+                                <p>PSEA recently worked with a client to stand up a new EA function, establishing the operating model for the team, and defining the service, processes and governance. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="card shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000"">
+                            <img class="card-img-top" src="../assets/img/cs_data_300px.png" alt="Card image cap">                         
+                            <div class="card-body">
+                                <h5 class="card-title">Data Strategy & BI Tooling</h5>
+                                <hr class="border border-warning opacity-100">
+                                <p>PSEA worked with a client to co-author their Data Strategy, and subsequently advised upon the redesign of the client's corporate analytics estate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <div class="card shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000"">
+                            <img class="card-img-top" src="../assets/img/cs_ardoq_300px.png" alt="Screenshot from Ardoq">
+                            <div class="card-body">
+                                <h5 class="card-title">EA Tooling Implementation</h5>
+                                <hr class="border border-warning opacity-100">
+                                <p>PSEA has supported several mayor clients with the procurement and sucessfully implementation of new EA tooling (Abacus and Ardoq) to help mature their EA practises.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="card shadow text-bg-primary" data-aos="zoom-in-up" data-aos-duration="1000"">
+                            <img class="card-img-top" src="../assets/img/cs_audit_300px.png" alt="Card image cap">                         
+                            <div class="card-body">
+                                <h5 class="card-title">Architectural Healthcheck</h5>
+                                <hr class="border border-warning opacity-100">
+                                <p>PSEA performed an EA Healthckeck for a client, the findings of which, helped to inform a subsequent engagement to oversee a programme recovery to address the architectural risks and issues identified.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Dark - Get in Touch -->
+            <div class="bg-primary text-secondary">
+                <img src="img/curve-top.png" class="img-fluid" alt="Curved border">
+                <div class="px-4 py-3 text-center" id="scrollspyContact">
+                    <div class="py-5">
+                        <h1 class="display-5 fw-bold text-white">Get in touch...</h1>
+                        <div class="col-lg-8 mx-auto">
+                            <p class="fs-5 mb-4">Ready to start transforming your department or council's technological landscape? Take the first step towards informed decision-making, enhanced efficiency and optimised project delivery. Contact us today to discover how the PSEA Team can drive meaningful transformation, tailored to you.</p>
+                            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                <a href="#" class="btn btn-outline-light btn-lg px-4 mx-3 rounded-pill">Learn more</a>
+                                <a href="#" class="btn btn-light btn-lg px-4 mx-3 rounded-pill">Contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="bg-primary text-info">
+                <div class="container">
+                    <footer class="d-flex flex-wrap justify-content-between align-items-center pb-4 my-0">
+                        <div class="col-md-6 d-flex align-items-center">
+                            
+                            <span class="mb-3 mb-md-0 text-secondary">Copyright &copy; Public Sector Enterprise Architecture</span>
+                        </div>
+                    
+                        <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+                            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24" fill="currentColor"><use xlink:href="#twitter"/></svg></a></li>
+                            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24" fill="currentColor"><use xlink:href="#instagram"/></svg></a></li>
+                            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24" fill="currentColor"><use xlink:href="#facebook"/></svg></a></li>
+                        </ul>
+                    </footer>
+                </div>
             </div>
         </div>
 
         <!-- Scripts -->   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <script src="main.js"></script>
+        <script src="js/aos/aos.js"></script>
+        <script>AOS.init();</script>
     </body>
 </html
